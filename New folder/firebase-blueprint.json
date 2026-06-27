@@ -1,0 +1,58 @@
+{
+  "collections": {
+    "Users": {
+      "fields": {
+        "uid": "string",
+        "email": "string",
+        "role": "string",
+        "organizationId": "string"
+      }
+    },
+    "Organizations": {
+      "fields": {
+        "name": "string",
+        "ownerId": "string"
+      }
+    },
+    "Branches": {
+      "fields": {
+        "name": "string",
+        "organizationId": "string"
+      }
+    },
+    "Groups": {
+      "fields": {
+        "name": "string",
+        "branchId": "string"
+      }
+    },
+    "Members": {
+      "fields": {
+        "name": "string",
+        "groupId": "string",
+        "email": "string"
+      }
+    },
+    "Loans": {
+      "fields": {
+        "memberId": "string",
+        "amount": "number",
+        "status": "string"
+      }
+    },
+    "Savings": {
+      "fields": {
+        "memberId": "string",
+        "amount": "number"
+      }
+    },
+    "Transactions": {
+      "fields": {
+        "memberId": "string",
+        "amount": "number",
+        "type": "string",
+        "timestamp": "timestamp"
+      }
+    }
+  }
+}
