@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies and Build
         run: |
-          npm ci
+          npm install
           npm run build  # Remove or change this if your project doesn't have a build step
 
       - name: Deploy to Firebase Hosting
