@@ -1,0 +1,6 @@
+{
+  "name": "Tanzil Microcredit Software",
+  "description": "A clean interface for managing microcredit applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
